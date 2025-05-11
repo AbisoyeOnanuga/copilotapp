@@ -1,3 +1,4 @@
+import 'package:copilotapp/widgets/side_navbar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -9,6 +10,7 @@ class HomePage extends StatelessWidget {
       body: Row(
         children: [
           // side navbar
+          SideNavbar(),
           Column(
             children: [
               // search section
